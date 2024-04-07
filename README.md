@@ -1,1 +1,2 @@
 # La-Pasta-Website-IICT-Project
+The basic motivation behind creating a food website was to make a user-friendly interface to aid Pasta lovers. The website is made using html, css and bootstrap through Visual Studio Code. Visuals and attractive icons have been added, creating a well navigated, controlled and coherent website; aimed to fulfill its functionality. The logo was created using Adobe Illustrator, and the name “La Pasta” was chosen. The website comprises of eight pages i.e. Main Page, Home Page, Menu & Deals, Login Page & Signup Page, My Cart Page, Payment Page.
