@@ -1,0 +1,34 @@
+.patti{
+    font-size: 18px;
+    font-family: serif;
+    font-variant: inherit;
+
+    color: white;
+}
+
+.footer{
+    color: white;
+}
+
+.main_div
+{
+    padding-top: 20px;
+}
+
+.total{
+    text-align: right;
+    font-weight: bold;
+}
+
+.prices{
+    text-align: left;
+}
+
+.table-borderless > tbody > tr > td,
+.table-borderless > tbody > tr > th,
+.table-borderless > tfoot > tr > td,
+.table-borderless > tfoot > tr > th,
+.table-borderless > thead > tr > td,
+.table-borderless > thead > tr > th {
+    border: none;
+}

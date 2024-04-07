@@ -1,0 +1,25 @@
+.about_us{
+    margin-left: 60px;
+    margin-top: 20px;
+    margin-right: 60px;
+    text-align: justify;
+    font-size: 20px;
+    font-variant: inherit;
+    font-style: italic;
+    font-family: serif;
+    color: white;
+}
+
+
+.patti{
+    font-size: 18px;
+    font-variant: inherit;
+    font-family: serif;
+    font-style: italic;
+    color: white;
+}
+
+
+.footer{
+    color: white;
+}

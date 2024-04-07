@@ -1,0 +1,100 @@
+
+.PASTA-HEAD {
+    font-size: 75px;
+    font-style: italic;
+    font-variant: inherit;
+    font-family: Parchment;
+    text-align: center;
+    color: white;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1.5em;
+  }
+  
+  .menu {
+    font-family: Old English Text MT;
+    color: white;
+    column-gap: inherit;
+    font-size: 24px;
+  }
+  
+  .menu-group {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 6.0em;
+    padding: 1.5em 0;
+  }
+  
+  .menu-item {
+    display: flex;
+    font-family: Parchment;
+    font-size: 65px;
+  }
+  
+  .menu-item-image {
+    width: 200px;
+    height: 200px;
+    flex-shrink: 0;
+    object-fit: cover;
+    margin-right: 1.5em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+  
+  .menu-item-text {
+    flex-grow: 1;
+    color: white;
+    font-family: Parchement;
+    font-size: 65px;
+  }
+  
+  .menu-item-heading {
+    
+    justify-content: space-between;
+    margin: 0;
+    font-family: Parchment;
+    font-size: 65px;
+  }
+  
+  .menu-item-name {
+    margin-right: 1.5em;
+  }
+  
+  .menu-item-description {
+    line-height: 2.0;
+    text-align: center;
+    size: 25px;
+    font-family: Old English Text MT;
+  }
+  
+  @media screen and (min-width: 992px) {
+    .menu {
+      font-size: 16px;
+    }
+  
+    .menu-group {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  
+    .menu-item-image {
+      width: 300px;
+      height: 300px;
+      vertical-align: initial;
+    }
+    .button {
+        color: rgb(61, 37, 10);
+        padding: 16px 32px;
+        text-align: center;
+        font-family: Old English Text MT;
+
+        display: inline-block;
+        outline-style: solid;
+        background-color: navajowhite;
+        outline: thick;
+        font-size: 16px;
+    }
+}
